@@ -1,0 +1,73 @@
+.filter--container {
+    margin-top: 10px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+}
+
+.filter__page {
+    font-family: 'Times New Roman', Times, serif;
+    height: 30px;
+    width: 40px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px;
+}
+
+.quanity__page {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+}
+
+.quanity__page .title {
+    margin-right: 6px;
+}
+
+.pagination__style {
+    font-size: 20px;
+    color: #8f8f8f;
+    outline: 0;
+}
+
+.pagination__page {
+    height: 20px;
+    width: 24px;
+    padding: 0 2px;
+    font-size: 14px;
+    border: 1px solid #828080;
+    outline: 0;
+    margin: 0 5px;
+}
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.numPage {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 40px;
+    width: 30px;
+}
+
+.btnFilter {
+    height: 20px;
+    width: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    outline: 0;
+    border: 0;
+    background-color: #f0f0f0;
+    margin-right: 12px;
+}
